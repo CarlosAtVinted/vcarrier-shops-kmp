@@ -5,7 +5,11 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
+    alias(libs.plugins.maven.publish)
 }
+
+version = "1.0.0"
+group = "com.vinted.shops.kmp"
 
 kotlin {
     androidTarget {
@@ -16,6 +20,8 @@ kotlin {
                 }
             }
         }
+
+        publishAllLibraryVariants()
     }
 
     val xcf = XCFramework()
