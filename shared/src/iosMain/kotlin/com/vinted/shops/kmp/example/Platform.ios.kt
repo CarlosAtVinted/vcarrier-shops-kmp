@@ -2,9 +2,9 @@ package com.vinted.shops.kmp.example
 
 import platform.UIKit.UIDevice
 
-class IOSPlatform : Platform {
-    override val name: String =
-        UIDevice.currentDevice.systemName() + " " + UIDevice.currentDevice.systemVersion
-}
+data class IOSPlatform(
+    override val name: String = UIDevice.currentDevice.systemName(),
+    override val version: String = UIDevice.currentDevice.systemVersion
+) : Platform
 
 actual fun getPlatform(): Platform = IOSPlatform()
