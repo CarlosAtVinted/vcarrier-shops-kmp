@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp
+package com.vinted.shops.kmp.example
 
 class Greeting {
     private val platform: Platform = getPlatform()

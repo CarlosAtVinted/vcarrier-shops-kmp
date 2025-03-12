@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp
+package com.vinted.shops.kmp.example
 
 class AndroidPlatform : Platform {
     override val name: String = "Android ${android.os.Build.VERSION.SDK_INT}"
