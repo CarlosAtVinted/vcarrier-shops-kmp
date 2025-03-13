@@ -43,7 +43,8 @@ kotlin {
         }
 
         commonMain.dependencies {
-            //put your multiplatform dependencies here
+            api(libs.datadogKmp.logs)
+            implementation(libs.datadogKmp.rum)
         }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
