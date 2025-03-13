@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp.tracker
+package com.vinted.shops.kmp.trackers
 
 import com.vinted.shops.kmp.example.getPlatform
 import com.vinted.shops.kmp.omnilog.Event
