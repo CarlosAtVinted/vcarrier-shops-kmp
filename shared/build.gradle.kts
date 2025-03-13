@@ -24,14 +24,14 @@ kotlin {
         publishAllLibraryVariants()
     }
 
-    val xcf = XCFramework()
+    val xcf = XCFramework("VGoShopsKMP")
     listOf(
         iosX64(),
         iosArm64(),
         iosSimulatorArm64()
     ).forEach {
         it.binaries.framework {
-            baseName = "shared"
+            baseName = "VGoShopsKMP"
             xcf.add(this)
             isStatic = true
         }
