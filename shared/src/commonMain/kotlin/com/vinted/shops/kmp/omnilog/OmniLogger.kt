@@ -1,6 +1,6 @@
 package com.vinted.shops.kmp.omnilog
 
-class Logger(
+class OmniLogger(
     private val providers: List<TrackerProvider>,
 ) {
     fun log(event: Event) {
@@ -16,6 +16,6 @@ class Logger(
             this.providers.addAll(providers)
         }
 
-        fun build() = Logger(providers)
+        fun build() = OmniLogger(providers)
     }
 }
