@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp.trackers.datadog.models
+package com.vinted.shops.kmp.providers.datadog.models
 
 data class DatadogUser(
     val id: String,

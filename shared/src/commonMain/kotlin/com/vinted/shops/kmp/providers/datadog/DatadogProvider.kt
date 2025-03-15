@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp.trackers.datadog
+package com.vinted.shops.kmp.providers.datadog
 
 import com.datadog.kmp.Datadog
 import com.datadog.kmp.DatadogSite
@@ -13,8 +13,8 @@ import com.datadog.kmp.rum.configuration.RumConfiguration
 import com.vinted.shops.kmp.example.getPlatform
 import com.vinted.shops.kmp.omnilog.Event
 import com.vinted.shops.kmp.omnilog.TrackerProvider
-import com.vinted.shops.kmp.trackers.datadog.models.DatadogEvent
-import com.vinted.shops.kmp.trackers.datadog.models.DatadogUser
+import com.vinted.shops.kmp.providers.datadog.models.DatadogEvent
+import com.vinted.shops.kmp.providers.datadog.models.DatadogUser
 
 class DatadogProvider(
     // TODO Move all initial config here to the LIB once we find a way to do it in KMP
