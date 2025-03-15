@@ -36,7 +36,9 @@ class DatadogProvider(
         initializeRum(applicationId)
         setupLogsConfig()
 
-        logger = setupLogger()
+        logger = setupLogger().apply {
+            addTag(PLATFORM_KEY, getPlatform().name.lowercase())
+        }
     }
 
     private fun initializeDatadog(
