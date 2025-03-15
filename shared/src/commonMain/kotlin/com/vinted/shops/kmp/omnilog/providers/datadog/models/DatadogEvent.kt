@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp.providers.datadog.models
+package com.vinted.shops.kmp.omnilog.providers.datadog.models
 
 import com.datadog.kmp.log.LogLevel
 import com.vinted.shops.kmp.omnilog.Event

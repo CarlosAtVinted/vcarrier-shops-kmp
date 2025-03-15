@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp.providers
+package com.vinted.shops.kmp.omnilog.providers
 
 import com.vinted.shops.kmp.example.getPlatform
 import com.vinted.shops.kmp.omnilog.Event

@@ -1,4 +1,4 @@
-package com.vinted.shops.kmp.providers.datadog.models
+package com.vinted.shops.kmp.omnilog.providers.datadog.models
 
 enum class DatadogTopic(val value: String) {
     LOGIN("login"),
