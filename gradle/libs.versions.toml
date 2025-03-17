@@ -9,6 +9,8 @@ datadogKmp = "1.0.0"
 
 timber = "5.0.1"
 
+skie = "0.10.1"
+
 [libraries]
 kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
@@ -32,3 +34,5 @@ kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = 
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 
 maven-publish = { id = "maven-publish" }
+
+skie = { id = "co.touchlab.skie", version.ref = "skie" }
