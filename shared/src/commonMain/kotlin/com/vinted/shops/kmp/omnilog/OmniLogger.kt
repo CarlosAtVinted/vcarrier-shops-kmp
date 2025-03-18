@@ -12,7 +12,7 @@ class OmniLogger(
     class Builder {
         private val providers = mutableListOf<TrackerProvider>()
 
-        fun addProviders(vararg providers: TrackerProvider) = apply {
+        fun addProviders(providers: List<TrackerProvider>) = apply {
             this.providers.addAll(providers)
         }
 
